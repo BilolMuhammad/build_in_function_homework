@@ -8,3 +8,5 @@ def main(number):
         int: the absolute value of a "number"
     """
     return abs(number)
+
+    
