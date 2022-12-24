@@ -3,9 +3,11 @@ def main(n):
     https://github.com/codeschool43/Build_in_function_homework#build_func04 
 
     Args:
-        n (int): integer
-        
+
     Returns:
         float: the value of the expression
     """
-    return
+    return ((2+n)/3) ** 2
+
+
+print(main(4))
