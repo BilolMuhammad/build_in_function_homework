@@ -5,8 +5,11 @@ def main(x, y):
     Args:
         x (int): integer
         y (int): integer
-        
+
     Returns:
         int: the value of the expression
     """
-    return
+    return 5*x**2*y**3 + x*y
+
+
+print(main(7, 1))
