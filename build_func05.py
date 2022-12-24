@@ -5,8 +5,11 @@ def main(n, x):
     Args:
         n (int): integer
         x (int): integer
-        
+
     Returns:
         int: the value of the expression
     """
-    return
+    return x**n + n**x
+
+
+print(main(3, 6))
