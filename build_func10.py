@@ -5,8 +5,11 @@ def main(x, y):
     Args:
         x (int): integer
         y (int): integer
-        
+
     Returns:
         int: the value of the expression
     """
-    return
+    return round(3*y**(1/2) + x ** (2/3))
+
+
+print(main(2, 4))
